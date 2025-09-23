@@ -4,7 +4,7 @@ A set of Homebrew formulae curated by [@fvmsiilo](https://github.com/fvmsiilo). 
 Intended mainly for personal use, but publicly accessible.
 
 Contains:
-- OpenSearch version 2.13.0 ([Formula](./o/fvmsiilo-opensearch.rb) `fvmsiilo-opensearch-maintenance`, alias `opensearch-siilo@2.13`)
+- OpenSearch version 2.13.0 ([Formula](./Formula/fvmsiilo-opensearch-maintenance.rb) `fvmsiilo-opensearch-maintenance`, alias `opensearch-siilo@2.13`)
 
 ## How do I install these formulae?
 
