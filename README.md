@@ -8,31 +8,31 @@ Contains:
 
 ## How do I install these formulae?
 
-1. By its original name:
-    ```shell
-    brew install fvmsiilo/tap/fvmsiilo-opensearch-maintenance
-    ```
-    Or,
-    ```shell
-    brew tap fvmsiilo/tap
-    brew install fvmsiilo-opensearch-maintenance
-    ```
+#### Option 1: By its original name
+```shell
+brew install fvmsiilo/tap/fvmsiilo-opensearch-maintenance
+```
+Or,
+```shell
+brew tap fvmsiilo/tap
+brew install fvmsiilo-opensearch-maintenance
+```
 
-2. By its alias:
-    ```shell
-    brew install fvmsiilo/tap/opensearch-siilo@2.13
-    ```
-   Or,
-    ```shell
-    brew tap fvmsiilo/tap
-    brew install opensearch-siilo@2.13
-    ```
+#### Option 2: By its alias:
+```shell
+brew install fvmsiilo/tap/opensearch-siilo@2.13
+```
+Or,
+```shell
+brew tap fvmsiilo/tap
+brew install opensearch-siilo@2.13
+```
 
-3. Via a `brew bundle` `Brewfile`:
-    ```ruby
-    tap "fvmsiilo/tap"
-    brew "fvmsiilo-opensearch-maintenance"
-    ```
+#### Option 3: Via a `brew bundle` `Brewfile`:
+```
+tap "fvmsiilo/tap"
+brew "fvmsiilo-opensearch-maintenance"
+```
 
 ## Documentation
 

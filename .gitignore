@@ -176,3 +176,4 @@ build-iPhoneSimulator/
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/steps_output.txt
