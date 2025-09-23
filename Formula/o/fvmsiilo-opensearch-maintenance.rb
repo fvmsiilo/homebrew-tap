@@ -5,16 +5,6 @@ class FvmsiiloOpensearchMaintenance < Formula
   sha256 "5cdac814f233df2c98e2f65662e803cc36dcf665ce20eaaea0dd43059f27a2fb"
   license "Apache-2.0"
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "3ef6c7c35a11fa9e06ec5768f357044f3e16bbec3f3803e9e56d9b01ba005270"
-    sha256 cellar: :any_skip_relocation, arm64_ventura:  "d08be458f2496e3b70d42a6916a39c61a46e1296cb5211053bf66f13f73ca94c"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "d2e1834b4f8d67040d4ef0bdb8c6b058389184c0a9027cdb96f2b81c14041e96"
-    sha256 cellar: :any_skip_relocation, sonoma:         "f75b9224071783b5d7e51c5c0531dba5e62eea2846bbdd228149cbf6001a2edf"
-    sha256 cellar: :any_skip_relocation, ventura:        "5c1add80ed47189a22edba9cb77bf2c6b0495653e2e1d338114f009cf9dbbdd8"
-    sha256 cellar: :any_skip_relocation, monterey:       "13ab1436d5eec4768c4ea82d8eea2244e4eb18fd46186dad6efe48c815d943f3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "83d26221098d4ca3fa8b5b2b1e17b172629214973b6f85de50c36638fedc7918"
-  end
-
   depends_on "gradle" => :build
   depends_on "openjdk"
 
