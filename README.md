@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install fvmsiilo/tap/<formula>`
+`brew install fvmsiilo/tap/fvmsiilo-opensearch-maintenance`
 
-Or `brew tap fvmsiilo/tap` and then `brew install <formula>`.
+Or `brew tap fvmsiilo/tap` and then `brew install fvmsiilo-opensearch-maintenance`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "fvmsiilo/tap"
-brew "<formula>"
+brew "fvmsiilo-opensearch-maintenance"
 ```
 
 ## Documentation
