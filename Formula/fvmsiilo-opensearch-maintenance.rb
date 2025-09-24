@@ -21,7 +21,7 @@ class FvmsiiloOpensearchMaintenance < Formula
   keg_only :versioned_formula
 
   depends_on "gradle@8" => :build
-  depends_on "openjdk"
+  depends_on "openjdk@21"
 
   def install
     platform = OS.kernel_name.downcase
