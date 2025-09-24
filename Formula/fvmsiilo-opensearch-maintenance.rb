@@ -20,7 +20,7 @@ class FvmsiiloOpensearchMaintenance < Formula
   # This formula is keg-only to avoid conflicts with opensearch formula from the Homebrew core tap.
   keg_only :versioned_formula
 
-  depends_on "gradle" => :build
+  depends_on "gradle@8" => :build
   depends_on "openjdk"
 
   def install
